@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 
+*Please note that a new edition (3rd edition) is now available as of December 2019. The code repository link for the 3rd edition is https://github.com/rasbt/python-machine-learning-book-3rd-edition.*
+
 
 **Python Machine Learning, 2nd Ed.**  
 
@@ -100,3 +102,12 @@ Raschka, Sebastian, and Vahid Mirjalili. *Python Machine Learning, 2nd Ed*. Pack
 - [Publisher link](https://mitp.de/IT-WEB/Programmierung/Machine-Learning-mit-Python-oxid.html)
 
 ![](images/cover-german.jpg)
+
+
+### Japanese
+
+- ISBN-10: 4295003379
+- ISBN-13: 978-4295003373
+- [Amazon.co.jp link](https://www.amazon.co.jp/Python-機械学習プログラミング-達人データサイエンティストによる理論と実践-impress-gear/dp/4295003379/ref=tmm_pap_swatch_0)
+
+![](images/cover-japanese.jpg)

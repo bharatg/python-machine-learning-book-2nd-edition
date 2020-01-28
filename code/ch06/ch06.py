@@ -87,7 +87,7 @@ df = pd.read_csv('https://archive.ics.uci.edu/ml/'
 # UCI machine learning repository, un-comment the following line
 # of code to load the dataset from a local path:
 
-# df_wine = pd.read_csv('wdbc.data', header=None)
+# df = pd.read_csv('wdbc.data', header=None)
 
 df.head()
 
@@ -330,7 +330,14 @@ print(gs.best_params_)
 
 
 clf = gs.best_estimator_
-clf.fit(X_train, y_train)
+
+# clf.fit(X_train, y_train)
+# Note that the line above is not necessary, because
+# the best_estimator_ will already be refit to the complete
+# training set because of the refit=True setting in GridSearchCV
+# (refit=True by default). Thanks to a reader, German Martinez,
+# for pointing it out.
+
 print('Test accuracy: %.3f' % clf.score(X_test, y_test))
 
 
